@@ -1,12 +1,83 @@
-# React + Vite
+# Social-Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple social media web application where users can create an account and share posts.  
+Built with **React** on the frontend and **Node.js, Express, and MongoDB** on the backend.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- User registration & login (authentication)
+- Create, read, update, and delete posts
+- Responsive React frontend
+- RESTful API backend with Express
+- MongoDB for data storage
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+**Frontend:**
+- React
+- Axios
+- CSS / Tailwind (if used)
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT (if authentication is included)
+- bcrypt (for password hashing, if used)
+
+---
+
+## 📂 Project Structure
+
+Social-Site/ <br>
+│── frontend/ # React application <br>
+│── backend/ # Node.js + Express API <br>
+│── README.md <br>
+<br>
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Gaurav0609847/Social-Site.git
+cd Social-Site
+
+
+
+2️⃣ Backend Setup
+
+cd backend
+npm install
+
+
+Run the backend:
+npm start
+
+
+3️⃣ Frontend Setup
+
+cd frontend
+npm install
+npm start
+
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch (feature/your-feature)
+
+Commit and push your changes
+
+Open a pull request
+
+📜 License
+
+This project is licensed under the MIT License.
